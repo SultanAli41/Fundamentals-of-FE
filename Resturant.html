@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delish Dine Restauran</title>
+    <style>
+     *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+     }
+     body{
+        display: flex;
+        flex-direction: column;
+     }
+     .Header{
+        width: 100%;
+        height: 35vh;
+        background-color: #A23B00;
+        text-align: center;
+        color: whitesmoke;
+        padding: 30px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     }
+     .Header h1{
+        font-size: 50px;
+     }
+     .Header h3{
+        font-size: 35px;
+        font-style: italic;
+     }
+     .Header hr{
+        width: 65%;
+        margin-top: 15px;
+        text-align: center;
+        margin: 2% 25% 0% 20%;
+     }
+     .Header p{
+        font-size: 20px;
+        margin-top: 15px;
+     }
+     /*Menu*/
+     .Menu{
+        height: 30vh;
+        width: 80%;
+        margin: 0%;
+        align-self: center;
+     }
+     .Menu table{
+        border: 2px solid #8b4513;
+         border-collapse: collapse;
+         margin: 20px auto;
+         width: 70%;
+         text-align: center;
+         font-size: 3vh;
+         font-family: Arial, Helvetica, sans-serif;
+
+     }
+     .Menu table tr td{
+        border: 2px solid #8b4513;
+                 padding-top: 1.5vh;
+                 padding-bottom: 1.5vh;
+     }
+    .Menu th{
+        padding-top: 1.5vh;
+        padding-bottom: 1.5vh;
+    }
+    /*List Section*/
+    .SepOff{
+        width: 70%;
+        height: 30vh;
+        align-self: center;
+        margin-top: 27vh;
+    }
+    .SepOff ul{
+list-style:square;
+padding: 3.5vh 0vw 0vw 7vw ;
+font-size: 3.1vh;
+line-height: 4vh;
+   }
+   .Form-Sec{
+    height: 55vh;
+    width: 70%;
+    margin-top: 5vh;
+    align-self: center;
+    background-color: white;
+    padding-left: 2vw;
+    font-size: 3vh;
+    padding-right: 5vh;
+   }
+   .Form-Sec input {
+    height: 5vh;
+   }
+   form label{
+      margin-bottom:6vh ;
+   }
+    </style>
+</head>
+<body>
+    <!--Header-->
+    <div class="Header">
+      <h1>Delish Dine Resturant</h1>
+      <h3>"Taste that touch your heart "</h3>
+      <hr>
+      <p>Welcome to Delish Dine — where every meal is crafted with love, flavor, and freshness. We serve happiness <br/> every bite!</p>
+    </div>
+    <!--Menu-->
+    <div class="Menu">
+            <h1 style="Color:#A23B00; padding-top: 2vh; font-family: Arial, Helvetica, sans-serif; text-align: center;">Our Menu</h1>
+     <table style="color: black; padding: 2px auto 2px auto ;">
+        <thead style="background-color: #e6995c; color: black;">
+            <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+           <td>Chicken Alfredo Pasta</td>
+           <td>Main</td>
+           <td>RS.850</td>
+         </tr>
+         <tr>
+           <td>Caesar Salad</td>
+                    <td>Starter</td>
+                    <td>Rs. 450</td>
+         </tr>
+         <tr>
+           <td>Grilled Fish</td>
+                    <td>Main</td>
+                    <td>Rs. 950</td>
+             
+         </tr>
+         <tr>
+           <td>Chocolate Lava Cake</td>
+                    <td>Dessert</td>
+                    <td>Rs. 550</td>
+                 </tr>
+         <tr>
+           <td>French Fries</td>
+                    <td>Starter</td>
+                    <td>Rs. 300</td>
+                
+         </tr>
+         </tbody>
+    </table>
+    </div>
+    <!--Special Offer-->
+    <div class="SepOff" style="background-color: #FFF9F0; border-left:7px solid #A23B00;">
+      <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif; padding-top: 2.5vh; color: #A23B00;">Our Special Offers</h1>
+      <ul>
+        <li>Buy 1 Get 1 Free on Weekends</li>
+        <li>Free Desert With Family Combo</li>
+        <li>20% Discount For Students</li>
+        <li>Home Deleviry Avalible</li>
+      </ul>
+    </div>
+    <!--Data Form-->
+    <div class="Form-Sec" style="background-color: #ffebd6;">
+        <h1 style="text-align: center; padding-top: 5vh; font-family: Arial, Helvetica, sans-serif; font-size: 4vh;">Contact Us</h1>
+     <form>
+     <br/>
+     <label for="Name">Name:</label>
+     <br/>
+     <input type="text" placeholder="Enter your Name"  style="border: 2px solid #A23B00; height: 6vh; width: 100%; font-size: 2vh; " >
+     <br/>
+      <label for="Email">Email:</label>
+      <br/>
+     <input type="text" placeholder="Enter your Email" style="border: 2px solid #A23B00; height: 6vh; width: 100%; font-size: 2vh; ">
+     <br/>
+      <label for="Message">Message:</label>
+      <br/>
+      <textarea style="border:2px solid #A23B00; font-size: 2vh; width: 100%; height: 6vh;" name="message" id="" placeholder="Write your Message here"></textarea>
+      <br/>
+      <button style="background-color: #A23B00; font-size:3vh;      width: 100%; border: none; color: white; height: 6vh; border-radius: 2px; margin-bottom: 3vh;">Send Message</button>
+    </form>
+    </div>
+</body>
+</html>
