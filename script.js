@@ -105,3 +105,16 @@ console.log(arr4)
 var arr5=[10,20,30,40,50,60];
 arr5.splice(2,2);
 console.log(arr5);
+// -----------------------------------------------------------------------
+// Advance topics 
+// JS-Two Versions ES6(New) & ES5(Old)
+//ES5 - Var         ES6 - Const & Let
+/*
+Three diffrence btw Var & Let,Const
+1:Var OLD JS    --  Let & Const New JS
+2:function scoped -- Braces Scoped   
+3: Adds in window  -- does not adds in window 
+// JS main kuch cheezain nahi hain jo hum use krta hain wo humain window sy milti hian 
+*/
+
+
