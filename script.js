@@ -140,4 +140,26 @@ var a= 12;
 let n= 19;
 console.log(a);
 console.log(n);
-
+//--------------------------------------------------------------------------------------
+//Browser Contex API - Window objects
+//Stack--FILO (First in last out )   ---------------  Heap (Store temporary data)
+//--------------------------------------------------------------------------------------
+//Execution Contex 
+/*Eecution contex is a containaer where function code is executed and it's created whenever a function
+is called it contain 3 things, variablefunctions and lexical enviorment */
+//Lexical Enviorment is like a chart where is written our particular funcion can access to which thing ?
+//it holds its scope and scope chain
+//--------------------------------------------------------------------------------------
+// Copy refrence values
+//in Array
+var arr1=[10,20,30,40];
+var arr2 =[...arr1];
+console.log(arr1);
+arr2.pop();
+console.log(arr2);
+//in Object
+var obj = {name:"Ali"}
+var copyobj ={...obj}
+console.log(obj);
+copyobj.name="Haider";
+console.log(copyobj);
