@@ -202,3 +202,37 @@ do{
 console.log("Hey");
 j++;
 }while(j<=15)
+//--------------------------------------------------------------------------------------------------------------
+// Call back function -- Like we use a function to get back data from any server 
+// jb hum function o esa chalatay hai k yai task complete hoo gaya tou yai fuction chal jay
+// is senario ko call back function ehtay hain  
+setTimeout(function(){
+console.log("Hy")
+},5000)
+// First class function 
+// be stored in a variable -- be passed as an argument to another function -- be returned from a function
+var a = function(){}
+function ABCDEF(a){
+a();
+}
+ABCDEF(function(){console.log("This is a first class function")})
+//Making negtive index in array 
+var narr =[10,20,30,40,50]
+narr[-1]=60;
+//----------------------------------Objects--------------------------------------------
+//updating object props
+var objz={
+    name:"Ali",
+    age:21,
+    city:"LHR"
+}
+city:"Sgd";
+console.log(objz);
+//deleting object props
+var objzz={
+    name:"Ali",
+    age:21,
+    city:"LHR"
+}
+delete objzz.city;
+console.log(objzz);
