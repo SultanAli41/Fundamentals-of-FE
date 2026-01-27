@@ -195,3 +195,10 @@ var obj={
 for(var key in obj){
     console.log(key,obj[key]);
 }
+/*do-while loop - we use it when we have to run code minimum 1 time; like if we write value of var more than
+value of condition then it will run time */
+var j=12;
+do{
+console.log("Hey");
+j++;
+}while(j<=15)
