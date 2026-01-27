@@ -163,3 +163,35 @@ var copyobj ={...obj}
 console.log(obj);
 copyobj.name="Haider";
 console.log(copyobj);
+//--------------------------------------------------------------
+// Truthy -- All the values are truthy expect falsy
+// Falsy  -- 0   - False  - undefiend - Nall - NaN - doucument.all
+if(0){
+console.log("Hey")
+}else{
+console.log("Hello")
+}
+// Switch
+switch(1){
+    case 1:
+         break;
+    case 2:
+         break
+    default : 
+}
+/*Foreach forin do while*/ 
+//For each -- Use for array-- Not change by defult original array it change temporary cop
+var arrz=[10,20,30,40,50];
+arrz.forEach(function(a){
+    console.log(a+2)
+})
+console.log(arrz);
+// For in loop --- Use for object 
+var obj={
+    name:"Ali",
+    age:21,
+    city:"LHR"
+}
+for(var key in obj){
+    console.log(key,obj[key]);
+}
