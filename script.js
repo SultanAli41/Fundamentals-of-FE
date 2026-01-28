@@ -236,3 +236,7 @@ var objzz={
 }
 delete objzz.city;
 console.log(objzz);
+//----------------------------------------------AJAX-------------------------------------------
+var xhttp = new XMLHttpRequest();
+xhttp.open("GET","filename",true);
+xhttp.send();
