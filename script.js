@@ -238,5 +238,12 @@ delete objzz.city;
 console.log(objzz);
 //----------------------------------------------AJAX-------------------------------------------
 var xhttp = new XMLHttpRequest();
+x.xhttp.onreadystatechange=function(){
+    if(this.readyState == 4 && this.status == 200){
+     document.getElementById("demo").innerHTML=this.responseText;
+    }
+};
+
 xhttp.open("GET","filename",true);
+//Method,FileName,Codition
 xhttp.send();
