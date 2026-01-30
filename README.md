@@ -1,5 +1,5 @@
 Readme file contain bit theory ):
-
+------------------------------------------------------------------
 --AJAX-Asychronous js & XML
 sendin and recivin data without reloding the whole page
 -XMLHttpReuestObject(Retrive data from a web server)
